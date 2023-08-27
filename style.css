@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(40, 40, 60);
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    
+}
+.container{
+    display: flex;
+    margin-left: 24%;
+    font-size: 55px;
+    margin-top: 0%;
+    color:antiquewhite;
+}
+.pressed{
+    opacity: 0.5;
+}
+.w{
+    background-image: url("./images/tom1.png");
+}
+.a{
+    background-image: url("./images/tom2.png");
+}
+.s{
+    background-image: url("./images/tom3.png");
+}
+.d{
+    background-image: url("./images/tom4.png");
+}
+.j{
+    background-image: url("./images/crash.png");
+}
+.k{
+    background-image: url("./images/snare.png");
+}
+.l{
+    background-image: url("./images/kick.png");
+}
+.btn{
+    padding: 55px;
+    font-size: 60px;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+.instruments{
+    padding-left:4.7% ;
+    padding-bottom: 12%;
+}
+footer{
+    margin-left: 45%;
+    color: antiquewhite;
+}
